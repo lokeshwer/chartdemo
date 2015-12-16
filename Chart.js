@@ -6275,8 +6275,8 @@
 	"use strict";
 
 	var root = this,
-		Chart = root.Chchart,
-		helpers = root.Chchart.helpers;
+		Chart = root.Chart,
+		helpers = root.Chart.helpers;
 
 	Chart.defaults.global.elements.rectangle = {
 		backgroundColor: Chart.defaults.global.defaultColor,
