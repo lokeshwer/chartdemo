@@ -6276,7 +6276,7 @@
 
 	var root = this,
 		Chart = root.Chchart,
-		helpers = Chart.helpers;
+		helpers = root.Chchart.helpers;
 
 	Chart.defaults.global.elements.rectangle = {
 		backgroundColor: Chart.defaults.global.defaultColor,
