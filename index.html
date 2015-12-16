@@ -132,7 +132,7 @@
 
             $('#adjustUpButton').click(function () {
                 $.each(config.data.datasets, function (i, dataset) {
-                    if (dataset.label == "CWBDC") {
+                    if (dataset.label == "NAV") {
                         $.each(dataset.data, function(j, dataObj) {
                             dataObj.y = dataObj.y * 1.15;
                         });
@@ -142,7 +142,7 @@
             });
             $('#adjustDownButton').click(function () {
                 $.each(config.data.datasets, function (i, dataset) {
-                    if (dataset.label == "CWBDC") {
+                    if (dataset.label == "NAV") {
                         $.each(dataset.data, function (j, dataObj) {
                             dataObj.y = dataObj.y * 0.85;
                         });
